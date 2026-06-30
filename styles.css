@@ -27,7 +27,7 @@ h1, h2, h3 { font-family: 'Syne', sans-serif; font-weight: 700; line-height: 1.0
 
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(244,243,241,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .nav { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 0; }
-.brand { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.3rem; letter-spacing: .02em; }
+.brand { display: inline-flex; align-items: center; gap: .55rem; font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.3rem; letter-spacing: .02em; }
 .brand span { font-weight: 400; }
 .nav-links { list-style: none; display: flex; align-items: center; gap: 1.9rem; }
 .nav-links a { font-weight: 400; font-size: .85rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
@@ -100,7 +100,7 @@ section { padding: 5.5rem 0; }
 
 .site-footer { background: var(--ink); color: #cfcfcf; padding: 2.6rem 0; text-align: center; }
 .footer-inner { display: grid; gap: .5rem; justify-items: center; }
-.site-footer .brand { color: #fff; }
+.site-footer .brand { display: inline-flex; align-items: center; gap: .55rem; color: #fff; }
 .muted { color: #9a9a9a; font-size: .85rem; }
 
 @media (max-width: 860px) {
